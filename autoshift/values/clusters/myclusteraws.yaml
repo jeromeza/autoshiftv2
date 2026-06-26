@@ -81,7 +81,7 @@ clusters:
       # AWS — platform-specific config
       # =====================================================================
       aws:
-        region: us-east-1
+        region: eu-west-2
         credentialRef: 'aws-creds'                   # secret with aws_access_key_id + aws_secret_access_key
         sshPrivateKeyRef: 'aws-creds'                # secret with ssh-privatekey key
         sshKeyRef:                                   # reads ssh-publickey from secret for install-config
