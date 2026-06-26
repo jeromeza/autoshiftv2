@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-autoshiftGitRepo: https://github.com/auto-shift/autoshiftv2.git
+autoshiftGitRepo: https://github.com/jeromeza/autoshiftv2.git
 autoshiftGitBranchTag: main
 
 selfManagedHubSet: hubofhubs
@@ -13,7 +13,7 @@ hubClusterSets:
     config:
       autoshift:
         appName: "autoshift"
-        repoUrl: "https://github.com/auto-shift/autoshiftv2.git"
+        repoUrl: "https://github.com/jeromeza/autoshiftv2.git"
         useRepoSecret: false
         valuesFiles:
           - deployments/hubofhubs/values.yaml
@@ -178,7 +178,7 @@ hubClusterSets:
       autoshift:
         targetRevision: feature/global-observability
         appName: "autoshift2"
-        repoUrl: "https://github.com/auto-shift/autoshiftv2.git"
+        repoUrl: "https://github.com/jeromeza/autoshiftv2.git"
         useRepoSecret: false
         valuesFiles:
           - deployments/site-hub/values.yaml
@@ -198,7 +198,7 @@ hubClusterSets:
           bucket: openshift-observability2
           endpoint:  s3.us-east-2.amazonaws.com
           insecure: false
-    autoshiftRepoUrl: https://github.com/auto-shift/autoshiftv2.git
+    autoshiftRepoUrl: https://github.com/jeromeza/autoshiftv2.git
     labels:
       policy-namespace: "policies-autoshift2"
       global-observability: 'true'

@@ -143,7 +143,7 @@ Defined in `values/global.yaml` and always loaded first:
 | Key | Default | Description |
 |-----|---------|-------------|
 | `autoshift.dryRun` | `false` | Deploy policies in inform-only mode (no enforcement) |
-| `autoshiftGitRepo` | `https://github.com/auto-shift/autoshiftv2.git` | Git repository URL for policy sources |
+| `autoshiftGitRepo` | `https://github.com/jeromeza/autoshiftv2.git` | Git repository URL for policy sources |
 | `autoshiftGitBranchTag` | `main` | Git branch or tag to track |
 | `selfManagedHubSet` | `hub` | Name of the clusterset that contains the hub itself |
 | `versionedClusterSets` | `false` | Append version/branch suffix to clusterset names for gradual rollout |

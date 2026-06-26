@@ -142,7 +142,7 @@ Using helm and the values you set for cluster labels, install AutoShift. Here is
 
 ```console
 export APP_NAME="autoshift"
-export REPO_URL="https://github.com/auto-shift/autoshiftv2.git"
+export REPO_URL="https://github.com/jeromeza/autoshiftv2.git"
 export TARGET_REVISION="main"
 export VALUES_FILE="values/global.yaml"
 export VALUES_FILE_2="values/clustersets/hub.yaml"

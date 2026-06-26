@@ -156,7 +156,7 @@ flowchart TD
 
 ```bash
 # Clone the repository (or your fork if contributing)
-git clone https://github.com/auto-shift/autoshiftv2.git
+git clone https://github.com/jeromeza/autoshiftv2.git
 cd autoshiftv2
 
 # Verify the policy generators work
