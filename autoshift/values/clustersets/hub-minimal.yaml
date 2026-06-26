@@ -42,3 +42,5 @@ hubClusterSets:
       acm-channel: release-2.16
       acm-source: redhat-operators
       acm-source-namespace: openshift-marketplace
+      # Enable this to allow ACM to provision and join new clusters in AWS
+      acm-enable-provisioning: true
