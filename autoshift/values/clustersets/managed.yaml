@@ -115,7 +115,7 @@ managedClusterSets:
       dev-hub-source: '' #redhat-operators
       dev-hub-source-namespace: '' #openshift-marketplace
       ### OpenShift Pipelines
-      pipelines: 'false'
+      pipelines: 'enable'
       pipelines-subscription-name: openshift-pipelines-operator-rh
       pipelines-channel: pipelines-1.21
       pipelines-source: '' #redhat-operators
